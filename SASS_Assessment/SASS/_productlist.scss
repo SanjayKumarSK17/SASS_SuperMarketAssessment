@@ -1,0 +1,45 @@
+.productlistcontent{
+    align-self: auto;
+    margin-left: 50px;
+    padding-top: 5px;
+    float: left;
+    width: 100%;
+
+    table{
+        width: 40%;
+        border: 5px solid $primary-color;
+        border-radius: 5px;
+        float: left;
+    }
+}
+
+.productformcontent{
+    float: left;
+    margin-left: 100px;
+    background-color: $primary-color;
+    width: 30vh;
+    height: 35vh;
+    border:2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 15px;
+    
+    p{
+        margin: 5px;
+        font-size: map-get($font-size, maximum );
+    }
+    p .namebox{
+        width: 180px;
+        height: 4vh;
+    }
+    
+}
+
+.footer{
+    background-color: $primary-color;
+    font-size: map-get($font-size, maximum );
+    
+    height: 5vh;
+    text-align: center;
+    padding-top: 10px;
+}

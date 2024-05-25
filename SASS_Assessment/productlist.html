@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-List</title>
+    <link rel="stylesheet" href="SASS/mainstyle.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <header class="header">
+            <div class="menubar">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="#"><img src="Images/SF1.png" alt="" class="navlogo"></a>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productlist.html">Product List</a></li>
+                        <li><a href="purchase.html">Purchase</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                        <li><a href="balance.html">Balance</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <br> <br> <br> <br> <br> <br>
+
+        <div class="productlistcontent">
+            <table border="3" align="center" >
+              <tr>
+                <th rowspan="2">S.No</th>
+                <th rowspan="2">Product Name</th>
+                <th rowspan="2">Price</th>
+                <th rowspan="2">Available Quantity</th>
+                <th rowspan="2">Photo</th>
+                <th rowspan="2">Action</th>  
+              </tr>
+
+              <tr>
+              </tr>
+
+              <tr>
+                <th>1</th>
+                <th>Tomato</th>
+                <th>30</th>
+                <th>25 Kg</th>
+                <th><img src="Images/tom.jpg" alt=""></th>
+                <th></th>
+              </tr>
+
+              <tr>
+                <th>2</th>
+                <th>Beans</th>
+                <th>65</th>
+                <th>20 kg</th>
+                <th><img src="Images/beans.jpg" alt=""></th>
+                <th></th>
+              </tr>
+
+              <tr>
+                <th>3</th>
+                <th>Carrot</th>
+                <th>45</th>
+                <th>25 kg</th>
+                <th><img src="Images/carrot.jpg" alt=""></th>
+                <th></th>
+              </tr>
+
+              <tr>
+                <th>4</th>
+                <th>Cucumber</th>
+                <th>80</th>
+                <th>30 kg</th>
+                <th><img src="Images/cucumber.jpg" alt=""></th>
+                <th></th>
+              </tr>
+               
+
+              <tr>
+                <th>5</th>
+                <th>Egg Plant</th>
+                <th>40</th>
+                <th>25 Kg</th>
+                <th><img src="Images/egg.jpg" alt=""></th>
+                <th></th>
+              </tr>
+
+              <tr>
+                <th>6</th>
+                <th>Refined Oil</th>
+                <th>110</th>
+                <th>50 L</th>
+                <th><img src="Images/download (1).jpg" alt=""></th>
+                <th></th>
+              </tr>
+            </table>
+
+            <div class="productformcontent">
+                 <form action="">
+                    <p>
+                        <label for="name">Product Name<span>*</span></label>
+                    </p>
+                    <p>
+                        <input type="text" name="name" class="namebox" placeholder="Enter Product Name here">
+                    </p>
+                   
+                    <p>
+                        <label for="number">Enter Price</label>
+                    </p>
+                    <p>
+                        <input type="number" name="number" class="namebox" placeholder="Enter Price here">
+                    </p>
+                    <p>
+                        <label for="subject">Taken Quantity<span>*</span></label>
+                    </p>
+                    <p>
+                        <input type="text" name="subject" class="namebox" placeholder="Enter Quantity">
+                    </p>
+                    
+                    <input type="submit" value="Submit" class="btn1">
+                 </form>
+            </div>
+            <br style="clear: both;">
+        </div>
+
+       
+       
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,335 @@
+.banner {
+  position: relative;
+  left: 80%;
+}
+
+.menubar {
+  background-color: #ee8b67;
+  padding: 10px;
+  position: fixed;
+  z-index: 999;
+  width: 99%;
+  height: 50px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .navlogo {
+  width: 40vh;
+  height: 7vh;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  line-height: 1.5;
+  margin: 30px;
+}
+li a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  height: 50px;
+  font-size: 20px;
+  padding: 0 15px;
+}
+li a:hover {
+  color: black;
+}
+
+.btn {
+  width: 10vh;
+  height: 5vh;
+  color: black;
+  font-size: 1rem;
+}
+
+.location1 {
+  margin-top: 35px;
+  border: 7px solid #ee8b67;
+  width: 23.7%;
+  float: left;
+  margin-right: 50px;
+  height: 318px;
+}
+
+.descusa {
+  position: sticky;
+  text-align: center;
+}
+
+.row1 {
+  width: 100%;
+  padding-left: 150px;
+}
+
+.location2 {
+  margin-top: 35px;
+  border: 7px solid #ee8b67;
+  width: 23.7%;
+  float: left;
+  height: 320px;
+  margin-right: 30px;
+  margin-left: 35px;
+}
+
+.location3 {
+  margin-top: 35px;
+  border: 7px solid #ee8b67;
+  width: 23.7%;
+  float: left;
+  height: 315px;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.marketimage {
+  width: 50vh;
+  height: 30vh;
+}
+
+.maincontent {
+  margin-top: 20px;
+}
+.maincontent h2 {
+  text-align: center;
+}
+
+.descmat {
+  position: sticky;
+  text-align: center;
+}
+
+.desceye {
+  position: sticky;
+  text-align: center;
+}
+
+.footer {
+  background-color: #ee8b67;
+  font-size: 1rem;
+  height: 5vh;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 42px;
+}
+
+.balancecontent {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.formcontent {
+  margin-top: 50px;
+  text-align: justify;
+  background-color: #ee8b67;
+  width: 20%;
+  position: absolute;
+  right: 40%;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 30vh;
+}
+.formcontent p {
+  font-size: 1rem;
+  padding-left: 25px;
+  padding-right: 15px;
+  margin-top: 5px;
+}
+.formcontent p .namebox {
+  width: 180px;
+  height: 4vh;
+}
+
+.btn1 {
+  margin: 20px;
+  margin-right: 25px;
+  background-color: black;
+  color: #ee8b67;
+  border-radius: 10px;
+  height: 4vh;
+  width: 10vh;
+}
+
+.balancecontent {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.formcontent {
+  margin-top: 50px;
+  text-align: justify;
+  background-color: #ee8b67;
+  width: 20%;
+  position: absolute;
+  right: 40%;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 30vh;
+}
+
+.formcontent p {
+  font-size: 1rem;
+  padding-left: 25px;
+  padding-right: 15px;
+  margin-top: 5px;
+}
+
+.formcontent p .namebox {
+  width: 180px;
+  height: 4vh;
+}
+
+.btn1 {
+  margin: 20px;
+  margin-right: 25px;
+  background-color: black;
+  color: #ee8b67;
+  border-radius: 10px;
+  height: 4vh;
+  width: 10vh;
+}
+
+.contactcontent {
+  margin-top: 10px;
+  text-align: justify;
+  background-color: #ee8b67;
+  width: 20%;
+  position: absolute;
+  right: 40%;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 60vh;
+}
+.contactcontent p {
+  font-size: 1rem;
+  padding-left: 25px;
+  padding-right: 15px;
+  margin-top: 7px;
+}
+.contactcontent p .namebox {
+  width: 180px;
+  height: 4vh;
+}
+.contactcontent p .help-box {
+  width: 180px;
+  height: 4vh;
+}
+
+.btn1 {
+  margin: 20px;
+  background-color: black;
+  color: #ee8b67;
+  border-radius: 10px;
+  height: 4vh;
+  width: 10vh;
+}
+
+.addresscontent {
+  width: 100%;
+  float: left;
+}
+.addresscontent .address1 {
+  border: 1px solid gray;
+  width: 24%;
+  float: left;
+  margin-right: 50px;
+  height: 380px;
+  margin: 40px;
+  background-color: #ee8b67;
+}
+.addresscontent .address2 {
+  margin-right: 200px;
+  border: 1px solid gray;
+  width: 24%;
+  float: right;
+  margin-left: 500px;
+  height: 380px;
+  margin: 40px;
+  background-color: #ee8b67;
+}
+
+.productlistcontent {
+  align-self: auto;
+  margin-left: 50px;
+  padding-top: 5px;
+  float: left;
+  width: 100%;
+}
+.productlistcontent table {
+  width: 40%;
+  border: 5px solid #ee8b67;
+  border-radius: 5px;
+  float: left;
+}
+
+.productformcontent {
+  float: left;
+  margin-left: 100px;
+  background-color: #ee8b67;
+  width: 30vh;
+  height: 35vh;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+.productformcontent p {
+  margin: 5px;
+  font-size: 1rem;
+}
+.productformcontent p .namebox {
+  width: 180px;
+  height: 4vh;
+}
+
+.footer {
+  background-color: #ee8b67;
+  font-size: 1rem;
+  height: 5vh;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.carttlistcontent {
+  align-self: auto;
+  margin-left: 450px;
+  padding-top: 50px;
+  float: left;
+  width: 100%;
+}
+.carttlistcontent table {
+  width: 40%;
+  border: 5px solid #ee8b67;
+  border-radius: 5px;
+}
+
+.cartviewcontent {
+  padding-top: 40px;
+  margin: 10px 10px;
+}
+
+.btn3 {
+  background-color: black;
+  color: #ee8b67;
+  border-radius: 10px;
+  height: 4vh;
+  width: 10vh;
+}
+
+.footer {
+  background-color: #ee8b67;
+  font-size: 1rem;
+  height: 5vh;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 42px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}/*# sourceMappingURL=mainstyle.css.map */

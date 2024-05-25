@@ -1,0 +1,43 @@
+@import './variables';
+@import './mixins';
+
+
+.balancecontent{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.formcontent{
+    margin-top: 50px;
+    text-align: justify;
+    background-color: $primary-color;
+    width: 20%;
+    position: absolute;
+    right: 40%;
+    border:2px solid black;
+    border-radius: 10px;
+    height: 30vh;
+
+    p{
+        font-size: map-get($font-size, maximum );
+        padding-left: 25px;
+        padding-right: 15px;
+        margin-top: 5px;
+    }
+    
+    p .namebox{
+        width: 180px;
+        height: 4vh;
+    }
+    
+}
+
+.btn1{
+    margin: 20px;
+    margin-right: 25px;
+    background-color: black;
+    color: $primary-color;
+    border-radius: 10px;
+    height: 4vh;
+    width: 10vh;
+}

@@ -1,0 +1,64 @@
+@use './balance';
+
+.contactcontent{
+    margin-top: 10px;
+    text-align: justify;
+    background-color: $primary-color;
+    width: 20%;
+    position: absolute;
+    right: 40%;
+    border:2px solid black;
+    border-radius: 10px;
+    height: 60vh;
+
+    p{
+        font-size: map-get($font-size, maximum );
+        padding-left: 25px;
+        padding-right: 15px;
+        margin-top: 7px;
+    }
+    p .namebox{
+        width: 180px;
+        height: 4vh;
+    }
+    p .help-box{
+        width: 180px;
+        height: 4vh;
+    }
+}
+
+.btn1{
+    margin: 20px;
+    
+    background-color: black;
+    color: $primary-color;
+    border-radius: 10px;
+    height:4vh;
+    width: 10vh;
+}
+
+.addresscontent{
+    width: 100%;
+    float: left;
+
+    .address1{
+        border: 1px solid gray;
+        width: 24%;
+        float: left;
+        margin-right: 50px;
+        height: 380px;
+        margin: 40px;
+        background-color: $primary-color;
+    }
+    .address2{
+        margin-right: 200px;
+        border: 1px solid gray;
+        width: 24%;
+        float: right;
+        margin-left: 500px;
+       
+        height: 380px;
+        margin: 40px;
+        background-color: $primary-color;
+    }
+}
